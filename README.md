@@ -5,10 +5,10 @@ This is a project for an online store built with Laravel, designed to manage pro
 
 Here is a preview of the completed site:
 
-| ![Image 1](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img1.PNG) | ![Image 2](public/images/sitepronto/img2.png) |
+| ![Image 1](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img1.PNG) | ![Image 2](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img2.PNG) |
 |-----------------------------------------------|-----------------------------------------------|
-| ![Image 3](public/images/sitepronto/img3.png) | ![Image 4](public/images/sitepronto/img4.png) |
-| ![Image 5](public/images/sitepronto/img5.png) | ![Image 6](public/images/sitepronto/img6.png) |
+| ![Image 3](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img3.PNG) | ![Image 4](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img4.PNG) |
+| ![Image 5](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img5.PNG) | ![Image 6](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img6.PNG) |
 
 > Each image showcases different sections and functionalities of the website.
 
