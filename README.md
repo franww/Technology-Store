@@ -39,3 +39,4 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
    cd YOUR_REPOSITORY
+Thanks to @ekramasif for providing me with the initial layout
