@@ -1,6 +1,16 @@
 # Online Store with Laravel
 
 This is a project for an online store built with Laravel, designed to manage products, contact messages, and a shopping cart. It provides a clean and intuitive interface for users and administrators, showcasing best practices for developing modern web applications with Laravel.
+# Site Preview
+
+Here is a preview of the completed site:
+
+| ![Image 1](public/images/sitepronto/img1.png) | ![Image 2](public/images/sitepronto/img2.png) |
+|-----------------------------------------------|-----------------------------------------------|
+| ![Image 3](public/images/sitepronto/img3.png) | ![Image 4](public/images/sitepronto/img4.png) |
+| ![Image 5](public/images/sitepronto/img5.png) | ![Image 6](public/images/sitepronto/img6.png) |
+
+> Each image showcases different sections and functionalities of the website.
 
 ## Features
 
