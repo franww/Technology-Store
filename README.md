@@ -4,11 +4,13 @@ This is a project for an online store built with Laravel, designed to manage pro
 # Site Preview
 
 Here is a preview of the completed site:
-
-| ![Image 1](public/images/sitepronto/img1.png) | ![Image 2](public/images/sitepronto/img2.png) |
+| ![Image 1](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img1.PNG) | ![Image 2](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img2.PNG) |
 |-----------------------------------------------|-----------------------------------------------|
-| ![Image 3](public/images/sitepronto/img3.png) | ![Image 4](public/images/sitepronto/img4.png) |
-| ![Image 5](public/images/sitepronto/img5.png) | ![Image 6](public/images/sitepronto/img6.png) |
+| ![Image 3](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img3.PNG) | ![Image 4](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img4.PNG) |
+| ![Image 5](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img5.PNG) | ![Image 6](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img6.PNG) |
+| ![Image 7](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img7.PNG) | ![Image 8](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img8.PNG) |
+| ![Image 9](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img9.PNG) | ![Image 10](https://github.com/franww/technology-store/blob/main/public/images/sitepronto/img10.PNG) |
+
 
 > Each image showcases different sections and functionalities of the website.
 
@@ -39,3 +41,4 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
    cd YOUR_REPOSITORY
+Thanks to @ekramasif for providing me with the initial layout
