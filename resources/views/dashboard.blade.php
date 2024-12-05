@@ -50,38 +50,11 @@
                             <a class="nav-link" href="/contact-messages">adminMensages</a>
                         </li>
                         <li class="nav-item active">
-                            @if (Route::has('login'))
-                            <nav class="nav-item active">
-                                @auth
-                                    <a
-                                        href="{{ url('/dashboard') }}"
-                                        class="nav-link"
-                                    >
-                                        Dashboard
-                                    </a>
-                                @else
-                                    <a
-                                        href="{{ route('login') }}"
-                                        class="nav-link"
-                                    >
-                                        Log in
-                                    </a>
-
-                                        
-                                @endauth
-                            </nav>
-                        @endif
+                            <form method="POST" action="{{ route('logout') }}" class="d-inline">
+                                @csrf
+                                <button type="submit" class="btn btn-danger">Logout</button>
+                            </form>
                         </li>
-                        <li class="nav-item active">
-                        <a
-                                        href="{{ route('register') }}"
-                                        class="nav-link"
-                                    >
-                                        Registar
-                                    </a>
-                        </li>
-                        
-
                     </ul>
                 </div>
             </nav>
@@ -149,7 +122,7 @@
                             <h1>SmartPhones</h1>
                         </div>
                         <div class="col-md-6 text-right">
-                        <a href="/produtos" class="seeall-btn">Ver Mais </a>
+                        <a href="/produtosview" class="seeall-btn">Ver Mais </a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +134,7 @@
                                 <h5 class="card-title"><b>IPhone 11 pro</b></h5>
                                 <p class="card-text">O melhor para quem procura o melhor.</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn smartphone-btn">Ver Mais
+                                <a href="/produtosview" class="btn smartphone-btn">Ver Mais
                                 </a>
                             </div>
                         </div>
@@ -173,7 +146,7 @@
                                 <h5 class="card-title"><b>Samsung Galaxy Note10+</b></h5>
                                 <p class="card-text">A melhor produtividade em apenas um lugar.</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn smartphone-btn">Ver Mais
+                                <a href="/produtosview" class="btn smartphone-btn">Ver Mais
                                     
                                 </a>
                             </div>
@@ -186,7 +159,7 @@
                                 <h5 class="card-title"><b>Redmi Note 8</b></h5>
                                 <p class="card-text">Preço qualidade imbativel, imparavel.</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn smartphone-btn">Ver Mais
+                                <a href="/produtosview" class="btn smartphone-btn">Ver Mais
                                     
                                 </a>
                             </div>
@@ -207,7 +180,7 @@
                             <h1>Laptop</h1>
                         </div>
                         <div class="col-md-6 text-right">
-                        <a href="/produtos" class="seeall-btn">Ver Mais </a>
+                        <a href="/produtosview" class="seeall-btn">Ver Mais </a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +192,7 @@
                                 <h5 class="card-title"><b>Asus VivoBook</b></h5>
                                 <p class="card-text">3070ti super, ryzen 9 7500x3d, alguém pode pedir melhor?</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn laptop-btn">Ver Mais
+                                <a href="/produtosview" class="btn laptop-btn">Ver Mais
                                     
                                 </a>
                             </div>
@@ -232,7 +205,7 @@
                                 <h5 class="card-title"><b>Razer Blade 15</b></h5>
                                 <p class="card-text">Razer? é preciso dizer mais alguma coisa?.</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn laptop-btn">Ver Mais
+                                <a href="/produtosview" class="btn laptop-btn">Ver Mais
                                     
                                 </a>
                             </div>
@@ -245,7 +218,7 @@
                                 <h5 class="card-title"><b>Xaiomi Mi Note Book pro</b></h5>
                                 <p class="card-text">O melhor para quem busca performance a baixo custo.</p>
                                 <h5><b>9999€</b></h5>
-                                <a href="/produtos" class="btn laptop-btn">Ver Mais
+                                <a href="/produtosview" class="btn laptop-btn">Ver Mais
                                     
                                 </a>
                             </div>

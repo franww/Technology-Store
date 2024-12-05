@@ -53,47 +53,50 @@
                             @if (Route::has('login'))
                             <nav class="nav-item active">
                                 @auth
-                                    <a
-                                        href="{{ url('/dashboard') }}"
-                                        class="nav-link"
-                                    >
-                                        Dashboard
-                                    </a>
+                                <a
+                                    href="{{ url('/dashboard') }}"
+                                    class="nav-link">
+                                    Dashboard
+                                </a>
                                 @else
-                                    <a
-                                        href="{{ route('login') }}"
-                                        class="nav-link"
-                                    >
-                                        Log in
-                                    </a>
+                                <a
+                                    href="{{ route('login') }}"
+                                    class="nav-link">
+                                    Log in
+                                </a>
 
-                                        
+
                                 @endauth
                             </nav>
-                        @endif
+                            @endif
                         </li>
                         <li class="nav-item active">
-                        <a
-                                        href="{{ route('register') }}"
-                                        class="nav-link"
-                                    >
-                                        Registar
-                                    </a>
+                            <a
+                                href="{{ route('register') }}"
+                                class="nav-link">
+                                Registar
+                            </a>
                         </li>
-                        
+                        <li class="nav-item active">
+                            <form method="POST" action="{{ route('logout') }}" class="d-inline">
+                                @csrf
+                                <button type="submit" class="btn btn-danger">Logout</button>
+                            </form>
+                        </li>
+
 
                     </ul>
                 </div>
             </nav>
         </header>
-     
+
         <!-- Header end  -->
         @yield('content')
 
         <!-- Categories Start -->
-        
 
-       
+
+
         <footer>
             <div class="text-center">
                 <strong>Francisco Pinto</strong> &copy; All Right reserved
