@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -28,7 +27,11 @@
                         <p class="card-text">{{ $product->description }}</p>
                         <h6><strong>Preço:</strong> €{{ number_format($product->price, 2, ',', '.') }}</h6>
                         <p><strong>Quantidade Disponivel:</strong> {{ $product->stock }}</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <form action="{{ route('cart.add', $product->id) }}" method="POST" style="display: inline;">
+                            @csrf
+                            <button type="submit" class="btn btn-primary">Comprar</button>
+                        </form>
+
                     </div>
                 </div>
             </div>

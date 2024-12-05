@@ -44,6 +44,12 @@
                             <a class="nav-link" href="/contactos">Contactos</a>
                         </li>
                         <li class="nav-item active">
+                            <a class="nav-link" href="/addprodutos">adminProdutos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/contact-messages">adminMensages</a>
+                        </li>
+                        <li class="nav-item active">
                             @if (Route::has('login'))
                             <nav class="nav-item active">
                                 @auth
